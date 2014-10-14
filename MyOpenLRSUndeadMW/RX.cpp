@@ -852,7 +852,7 @@ ISR(PCINT0_vect) {
 				Rx_RSSI = rssiValue / rssiCounter;
 				rssiValue = 0;
 				rssiCounter = 0;
-				analogWrite(PIND7, Rx_RSSI); //write RSSI to pin D7
+				analogWrite(PIND6, Rx_RSSI); //write RSSI to pin D6
 				// Rx RSSI
 			}
 			rx_reset();
