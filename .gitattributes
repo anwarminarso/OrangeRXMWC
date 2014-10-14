@@ -11,6 +11,7 @@
 *.cpp merge=union
 *.h merge=union
 *.ino merge=union
+*.pde merge=union
 
 
 # Standard to msysgit
